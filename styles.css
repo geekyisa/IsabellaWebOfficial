@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f4f8;
     color: #333;
     margin: 0;
@@ -54,7 +54,7 @@ header h1 {
 
 .salutation {
     font-size: 3em;
-    color: #cb3f0c;
+    color: #cb0c0c;
     margin-bottom: 0.5em;
     font-style: italic;
 }
@@ -82,25 +82,21 @@ section {
     margin-bottom: 2%;
 }
 
-.intro h2 {
+.intro h2, .donation h3, .guide h3 {
     font-size: 2em;
-    color: #333;
-    text-align: center;
+    color: #d305c6;
+    /* border-bottom: 0.2em solid #0073e6; */
+    text-align: left;
     margin-bottom: 1em;
+    font-style: italic;
 }
 
 .intro p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    text-align: center;
-}
-
-.donation h3, .guide h3 {
     font-size: 1.5em;
-    color: #333;
-    border-bottom: 0.2em solid #0073e6;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    color: rgb(0, 146, 44);
 }
 
 .wallet-address {
@@ -124,6 +120,8 @@ section {
 
 .guide ol {
     padding-left: 2em;
+    font-size: 1.3em;
+    font-style: italic;
 }
 
 .guide ol li {
@@ -132,13 +130,18 @@ section {
 }
 
 .guide p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.6;
+    font-style: italic;
 }
 
 .gratitude{
-    font-size: 2em;
+    font-size: 3em;
     color: #cb3f0c;
     text-align: center;
     font-style: italic;
+}
+
+.donation p{
+    font-size: 1.2em;
 }
