@@ -7,54 +7,86 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 80%;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
+    padding: 2%;
+    background-image: -webkit-repeating-radial-gradient();
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 1em;
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em 1em 0 0;
+    height: 20vh; /* Adjust header height */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.background-image {
+    flex: 1;
+    height: 100%;
+    background-size: cover;
+    background-position: left;
+}
+
+.profile-pic {
+    width: 15%; /* Adjust profile picture size */
+    border-radius: 50%;
+}
+
+.header-text {
+    color: #d59929e3;
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #333;
+    font-size: 2em;
+    margin: 0;
+    color: #8114a2;
+    font-style: italic;
+}
+
+.salutation {
+    font-size: 3em;
+    color: #cb3f0c;
+    margin-bottom: 0.5em;
+    font-style: italic;
 }
 
 .social-links {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    gap: 1em;
 }
 
 .social-links a {
-    color: #0073e6;
+    color: #0f9dbd;
+    font-size: 1.5em;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .social-links a:hover {
-    text-decoration: underline;
+    color: #ffde59;
 }
 
 main {
-    padding: 20px;
+    padding: 2%;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .intro h2 {
     font-size: 2em;
     color: #333;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .intro p {
@@ -66,9 +98,9 @@ section {
 .donation h3, .guide h3 {
     font-size: 1.5em;
     color: #333;
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    border-bottom: 0.2em solid #0073e6;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .wallet-address {
@@ -78,11 +110,11 @@ section {
 
 .donate-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1em 2em;
     background-color: #0073e6;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0.5em;
     font-weight: bold;
 }
 
@@ -91,15 +123,22 @@ section {
 }
 
 .guide ol {
-    padding-left: 20px;
+    padding-left: 2em;
 }
 
 .guide ol li {
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     line-height: 1.6;
 }
 
 .guide p {
     font-size: 1.2em;
     line-height: 1.6;
+}
+
+.gratitude{
+    font-size: 2em;
+    color: #cb3f0c;
+    text-align: center;
+    font-style: italic;
 }
