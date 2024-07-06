@@ -1,6 +1,6 @@
 # Personal Website
 
-Visit my webpage at [https://geekyisa.github.io/IsabellaOfficial](https://geekyisa.github.io/IsabellaOfficial).
+Visit my webpage at [https://geekyisa.github.io/IsabellaWebOfficial/](https://geekyisa.github.io/IsabellaWebOfficial/)
 
 This website includes my name, social media links, a salutation, and a section for Bitcoin donations with instructions on how to buy Bitcoin for donation purposes.
 
