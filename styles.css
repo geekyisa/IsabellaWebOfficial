@@ -19,7 +19,7 @@ header {
     position: relative;
     overflow: hidden;
     border-radius: 1em 1em 0 0;
-    height: 20vh; /* Adjust header height */
+    height: 30vh;
 }
 
 .ol p{
