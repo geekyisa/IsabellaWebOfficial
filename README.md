@@ -1,4 +1,4 @@
-# Personal Website
+# My Official Website
 
 Visit my webpage at [https://geekyisa.github.io/IsabellaWebOfficial/](https://geekyisa.github.io/IsabellaWebOfficial/)
 
@@ -22,4 +22,4 @@ If you find my work useful and would like to support me, you can donate Bitcoin.
 Thank you for visiting!
 
 ---
-Your Name
+Isabella Grey
