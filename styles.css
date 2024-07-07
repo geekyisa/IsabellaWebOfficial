@@ -22,6 +22,10 @@ header {
     height: 20vh; /* Adjust header height */
 }
 
+.ol p{
+    font-size: 1.2em;
+}
+
 .header-content {
     display: flex;
     align-items: center;
@@ -118,6 +122,32 @@ section {
     background-color: #005bb5;
 }
 
+.guide p{
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.coin{
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #0f9dbd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1em;
+    font-weight: bold;
+    align-self: center;
+}
+
+.coin:hover{
+    background-color: #006f88;
+}
+
+.recommendation{
+    font-style: italic;
+    font-size: 1.5em;
+
+}
+
 .guide ol {
     padding-left: 2em;
     font-size: 1.3em;
@@ -129,12 +159,6 @@ section {
     line-height: 1.6;
 }
 
-.guide p {
-    font-size: 1.3em;
-    line-height: 1.6;
-    font-style: italic;
-}
-
 .gratitude{
     font-size: 3em;
     color: #cb3f0c;
@@ -143,5 +167,6 @@ section {
 }
 
 .donation p{
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-style: italic;
 }
